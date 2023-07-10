@@ -13,7 +13,7 @@
 {
   "development": {
     "username": "root",
-    "password": "NIHANGmysql@1",
+    "password": "${Your Password}",
     "database": "Flights_Search_DB_DEV",
     "host": "127.0.0.1",
     "dialect": "mysql"
