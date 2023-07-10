@@ -9,7 +9,8 @@
     - PORT = 3000
 - Create a `config.json` file in the config folder and add the following configuration
 
-```{
+```
+{
   "development": {
     "username": "root",
     "password": "NIHANGmysql@1",
@@ -17,4 +18,5 @@
     "host": "127.0.0.1",
     "dialect": "mysql"
   }
-}```
+}
+```
