@@ -1,15 +1,3 @@
-/
-    -src/
-        index.js //server
-        models/
-        controllers/
-        middelwares/
-        services/
-        utils/
-        config/
-    - tests/ [later]
-    - static/
-    - temp/
 
 
 # Welcome to Flights Service
@@ -20,7 +8,8 @@
 - Create a `.env` file in the root directory and add the following environment variables
     - PORT = 3000
 - Create a `config.json` file in the config folder and add the following configuration
-    `{
+
+```{
   "development": {
     "username": "root",
     "password": "NIHANGmysql@1",
@@ -28,5 +17,4 @@
     "host": "127.0.0.1",
     "dialect": "mysql"
   }
-}
-`
+}```
