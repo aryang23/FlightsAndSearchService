@@ -20,3 +20,11 @@
   }
 }
 ```
+
+## DB Design
+
+  - Airplane Table
+  - Flight Table
+  - Airport
+  - City
+   
