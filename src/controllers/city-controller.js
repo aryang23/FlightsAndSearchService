@@ -1,6 +1,6 @@
 const {CityService} = require('../services/index');
 
-const cityService = await CityService();
+const cityService = new CityService();
 
 //POST -> req.body
 const create = async (req, res) => {
@@ -24,7 +24,7 @@ const create = async (req, res) => {
 }
 
 //DELETE -> /city/:id
-const destory = async (req, res) => {
+const destroy = async (req, res) => {
     try {
         const response = await cityService.deleteCity(req.params.id);
         return res.status(200).json({
@@ -83,4 +83,11 @@ const update = async (req, res) => {
             err: error
         })
     }
+}
+
+module.exports = {
+    create,
+    destroy,
+    get,
+    update
 }
